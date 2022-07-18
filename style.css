@@ -693,6 +693,12 @@ input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
   .container {
     padding: 0 20px;
   }
+
+  #home {
+    max-width: fit-content;
+  
+  }
+
   #home .hero-img {
     display: none;
   }
@@ -740,5 +746,12 @@ input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
   }
   #portfolio .gallery-filter .filter-item {
     margin-bottom: 10px;
+  }
+
+  #home {
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.65),
+      rgba(0, 0, 0, 0.65)),
+      url(./Images/12345.JPG);
   }
 }
